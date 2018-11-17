@@ -60,7 +60,7 @@ public class Pawn extends Piece {
                         }
                     }
                 }
-
+//debil
             } else if (currentCandidateOffset == 8 && !((BoardUtils.EIGHTH_COLUMN[this.piecePosition] && this.pieceAlliance.isBlack()))) {
                 if (board.getTile(candidateDestinationCoordinate).isTileOccupied()) {
                     final Piece pieceOnCandidate = board.getTile(candidateDestinationCoordinate).getPiece();
